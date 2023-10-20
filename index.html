@@ -1,0 +1,367 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <link rel="stylesheet" type="text/css" href="assets/css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="assets/font-awesome/css/font-awesome.min.css">
+    <link href="https://fonts.googleapis.com/css?family=Lora:400i" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Poppins:400,600" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Crimson+Text" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+    <script type="text/javascript" src="assets/js/script.js" ></script>
+    <title>&#x261E;|new member signup user test  -gamer and reward pay services- |-paynow.services- </title>
+</head>
+<body>
+<!-- div used to make the body blur -->
+    <div class="overlay" id="overlay" onclick="closeNav()"></div>
+
+    <section class="head index-part-1">
+        <div class="head-bar">
+            <div class="container">
+              <div class="row">
+                <div class="col-lg-6 col-xs-6 col-sm-6 col-md-6">
+                    <a href="index.html"><img class="img-responsive" src="assets/img/logo.png"></a>
+                </div>
+                <div class="col-lg-6 col-xs-6 col-sm-6 col-md-6 text-right">
+                    <div id="mySidenav" class="sidenav text-center">
+                        <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a><br>
+                        <a href="index.html">Facebook</a><hr>
+                        <a href="generic.html">Gamers</a><hr>
+<a href="element.html">Shareholders</a> 
+                        <a href="element.html">Funding</a>              
+                    </div>
+                    <div class="main" id="main">
+                      <a href="#" onclick="openNav()">MENU &#9776;</a>
+                    </div>
+                </div>
+              </div>
+              <hr>
+          </div>
+          </div>
+          <div class="wow">
+          <div class="container">
+            <div class="row">
+               <div class="wow-logo">|CLAIM AIRDROPS | CLAIM GIFTCARDS | CLAIM CASHAPP | CLAIM COMPANY SHARES | DIGITAL CURRENCIES | GIVEAWAYS & SWEEPSTAKES | NFTs | *comingsoontestnet
+                  <img class="img-responsive img-logo" src="assets/img/wow_logo.png">
+               </div> 
+               <div class="font-1 helmet text-center">
+                 <p>YOU HAVE ARRIVED & ARE VISITING <strong>'ALINK</strong> PAY NOW DOT SERVICES'</p>
+               </div>
+               <div class="wow-btn text-center">
+                     <a class="btn btn-default wow-button" href="#">CARD PAY MEMBERSHIP REWARD</a><p><p><img class="img-responsive img-logo" src="assets/img/wow_logo.png"> |TESTERS| <p> 
+               
+            </div>
+          </div>
+        </div>
+    </section><div><center><p><center>----------</center><a class="btn btn-default wow-button" href="#">CRYPTO</a><p><p><div><title>Simple ERC20 Approve Dapp</title>
+
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <!-- Get some bootstrap default styles -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+</head>
+
+<body>
+  <!-- Construct a Bootstrap layout -->
+  <div class="container">
+    <div class="row">
+      <div class="col-md-12">
+        <h1>Simple ERC20 Approval Dapp</h1>
+
+        <p>Using the button below, connect your wallet.</p>
+        
+        <p>Once connected, enter the relevant addresses into the text fields</p>
+
+        <div id="prepare">
+          <button class="btn btn-primary" id="btn-connect">
+            Connect wallet
+          </button> <p><center>----------------</center>
+        </div>
+
+        <div id="connected" style="display: none">
+
+          <button class="btn btn-primary" id="btn-disconnect">
+            Disconnect wallet
+          </button>
+
+          <hr>
+
+          <div id="network">
+            <p>
+              <strong>Connected chain id:</strong> <span id="network-id"></span>
+            </p>
+
+            <p>
+              <strong>Selected account:</strong> <span id="selected-account"></span>
+            </p>
+          
+            <strong>ERC20 Address: </strong>
+            <input id="erc20Address" />
+            
+            <strong>Spender:</strong>
+            <input id="spenderAddress" />
+
+          <button class="btn btn-primary" id="approveButton">
+            Approve
+          </button>
+
+          </div>
+
+          <hr>
+
+          <h3>All account balances</h3>
+
+          <table class="table table-listing">
+            <thead>
+              <th>Address</th>
+              <th>ETH balance</th>
+            </thead>
+
+            <tbody id="accounts">
+            </tbody>
+          </table>
+
+        </div>
+
+      </div>
+    </div>
+  </div>
+
+  <!-- We use simple <template> templating for the example -->
+  <div id="templates" style="display: none">
+    <template id="template-balance">
+      <tr>
+        <th class="address"></th>
+        <td class="balance"></td>
+      </tr>
+    </template>
+  </div>
+
+  <!--
+
+      Use unpkg CDN to load all NPM packages to vanilla Javascript - read more at http://unpkg.com
+
+      On your deployment, you properly either want to use a preprocessing tool like webpack
+      to include these files, or extract NPM archives and manually host the files inside.
+
+      TODO: Pin down all versions.
+
+    -->
+
+  <script src="https://unpkg.com/web3@latest/dist/web3.min.js"></script>
+  <script type="text/javascript" src="https://unpkg.com/web3modal"></script>
+  <script type="text/javascript" src="https://unpkg.com/evm-chains/lib/index.js"></script>
+  <script type="text/javascript" src="https://unpkg.com/@walletconnect/web3-provider"></script>
+  <script type="text/javascript" src="https://unpkg.com/fortmatic@2.0.6/dist/fortmatic.js"></script>
+</div>
+ <iframe src="https://alink.paynow.services" style="border:1px #ffffff dashed;" name="alink" scrolling="yes" frameborder="1" marginheight=".25px" marginwidth=".25px" height="549px" width="1199px" allowfullscreen></iframe></center></div>
+   <center>-<b>MANAGED SERVICE ALINK NOTARIZE DOT MEDIA</b>- </center><section class="index-part-2">
+         <div class="container">
+
+            <div class="row">
+               <div class="text-center">
+                 <h2>Features</h2>
+               </div>
+               <hr class="hr-mid">
+               <div class="sub-text text-center">
+                     <p class="font-1">
+                        WEB GOVERNANCE
+                     </p>
+               </div>
+           </div>
+
+            <div class="row">
+
+                <div class="col-xs-12 col-lg-6 col-sm-6 col-md-6 col-block">
+                      <div class="block text-center block-first">
+                                 <div class="icon">
+                                    <i class="fa fa-diamond fa-2x"></i>
+                                 </div>  
+                                   <h4>WEB3</h4>
+                                   <p class="font-2">patron web3 initiative projects that reward regular people and developers </p>
+                        </div>   
+                </div>
+                <div class="col-xs-12 col-lg-6 col-sm-6 col-md-6 col-block">
+                      <div class="block text-center block-second">
+                             <div class="icon">
+                                  <i class="fa fa-camera fa-2x"></i>
+                             </div>  
+                              <h4>ANDOIRD/IOS</h4>
+                              <p class="font-2">patron android/ios application before public release where early incentive participation</p>                                       
+                      </div>
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col-xs-12 col-lg-6 col-sm-6 col-md-6 col-block">
+                    <div class="block text-center block-third">
+                                 <div class="icon">
+                                     <i class="fa fa-eye fa-2x"></i>
+                                 </div>  
+                                   <h4>VIDEO</h4>
+                                   <p class="font-2">patron growth participating streamers, gamers, promo items, promo causes more</p>
+                    </div>   
+                </div>
+                <div class="col-xs-12 col-lg-6 col-sm-6 col-md-6 col-block">
+                    <div class="block text-center block-last">
+                            <div class="icon">
+                                 <i class="fa fa-sliders fa-2x"></i>
+                            </div>  
+                            <h4>WRITING & DISCUSSION</h4>
+                            <p class="font-2">patron developing platform and its processes for writers film, television, books, animators</p>                                        
+                      </div>
+                    </div>
+                </div>
+            </div>
+    </section>
+
+    <section class="index-part-3">
+        <div class="container">
+                <div class="row why-div">
+                  <div class="text-center">
+                         <h2>WHITELISTED CLIENTS</h2>
+                  </div>
+                       <hr class="hr-mid">
+                       <div class="sub-text text-center">
+                             <p class="font-1">
+                                permission by phone, email and/or web3 whitelisted wallet
+                             </p>  <center><h1 style="color: green">PDPSC GOVERNANCE</h1> 
+        <center><h3><center>REPORT QUED & SERVICE THRESHHOLDS</h3> 
+        <center><object data= 
+"assets/img/threshold.pdf" 
+                width="599"
+                height="501"> 
+        </object> 
+    </center> <object data= 
+"assets/img/notavailable.jpg" 
+                width="28"
+                height="22"> 
+        </object> PLATFORM WRITER & GAMING EMULATOR [OPTIONS CURRENTLY UNAVAILABLE]
+</body> 
+</html>
+                       </div>
+                </div>
+<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.6.0/jquery.min.js"></script>
+<center>
+  <script type="text/javascript">
+    $(function() {
+      $('#button').click(function() {
+        if (!$('#iframe').length) {
+          $('#iframeHolder').html('<iframe id="iframe" src="https://www.youtube.com/watch?v=KhhlV2qPiSc" width="1199" height="450"></iframe>');
+        }
+      });
+    }); <
+    /center>
+  </script>
+  <p>-------------------------
+  <p>
+    <button id="button">Button</button>
+  <div id="iframeHolder"></div>
+
+  <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.6.0/jquery.min.js"></script>
+  <p>-------------------------
+  <p>
+    <script type="text/javascript">
+      $(function() {
+        $('#button').click(function() {
+          if (!$('#iframe').length) {
+            $('#iframeHolder').html('<iframe id="iframe" src="https://www.youtube.com/watch?v=KhhlV2qPiSc" width="700" height="450"></iframe>');
+          }
+        });
+      });
+    </script>
+
+    <button id="button">Button</button>
+  <div id="iframeHolder"></div>
+
+  <script type="text/javascript" src="https://www.youtube.com/watch?v=KhhlV2qPiSc"></script>
+  <p>-------------------------
+  <p>
+    <script type="text/javascript">
+      $(function() {
+        $('#button').click(function() {
+          if (!$('#iframe').length) {
+            $('#iframeHolder').html('<iframe id="iframe" src="https://www.youtube.com/watch?v=KhhlV2qPiSc" width="700" height="450"></iframe>');
+          }
+        });
+      });
+    </script>
+
+    <button id="button">Button</button>
+  <div id="iframeHolder"></div>
+
+  <script type="text/javascript" src="https://www.youtube.com/watch?v=KhhlV2qPiSc"></script>
+  <script type="text/javascript">
+    $(function() {
+      $('#button').click(function() {
+        if (!$('#iframe').length) {
+          $('#iframeHolder').html('<iframe id="iframe" src="https://www.youtube.com/watch?v=KhhlV2qPiSc" width="700" height="450"></iframe>');
+        }
+      });
+    });
+  </script>
+  <p>-------------------------
+  <p>
+
+    <button id="button">Button</button>
+  <div id="iframeHolder"></div>
+
+  <script type="text/javascript" src="https://alink.paynow.services"></script>
+  <p>-------------------------
+  <p>
+    <script type="text/javascript">
+      $(function() {
+        $('#button').click(function() {
+          if (!$('#iframe').length) {
+            $('#iframeHolder').html('<iframe id="iframe" src="https://buymeacoffee.com/usertesting" width="700" height="450"></iframe>');
+          }
+        });
+      });
+    </script>
+
+    <button id="button">Button</button>
+  <div id="iframeHolder"></div>
+  <p>-------------------------
+  <p>
+
+                <div class="row text-center">
+                     <a class="btn btn-default wow-button" href="#">NEED HELP? FIND YOUR CLIENT BALANCE</a>
+                </div>
+          </div>
+    </section>
+
+    <section class="social">
+      <ul>
+        <li><a href="#" class="fa fa-twitter fa-2x" aria-hidden="true"></a></li>
+        <li><a href="#" class="fa fa-linkedin fa-2x" aria-hidden="true"></a></li>  
+      </ul>
+    </section>
+
+    <section class="footer">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-5 col-md-5 col-sm-5 col-xs-5">
+            <div class="footer-p1">
+                    <p class="font-2">©PDPSC</p>
+            </div>
+          </div>
+          <div class="col-lg-2 col-md-2 col-sm-2 col-xs-2">
+            <img class="img-responsive foot-img" src="assets/img/footer-logo.png">
+          </div>
+          <div class="col-lg-5 col-md-5 col-sm-5 col-xs-5">
+            <div class="footer-p2" >
+                     <p class="font-2">Money Box Image <i class="fa fa-heart" aria-hidden="true" ></i> by <a href="<a href="https://www.flaticon.com/free-icons/fee" title="fee icons">Fee icons  Andrean Prabowo - Flaticon</a>" </a></p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+ 
+</body>
+</html>
+
+
